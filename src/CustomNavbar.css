@@ -1,0 +1,162 @@
+/* Add this CSS to your styles file or component */
+
+.elementor-nav-menu--main {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center; /* Center the menu horizontally */
+}
+
+.elementor-nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu-item {
+    margin-right: 30px; /* Adjust spacing between menu items */
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #6e6d65; /* Text color of the menu items */
+    font-weight: bold;
+    font-size: 16px; /* Adjust font size as needed */
+    transition: color 0.3s ease; /* Add a smooth color transition on hover */
+
+    /* Style for hover */
+    &:hover {
+        color: #80d687; /* Change color on hover */
+    }
+}
+
+.active {
+    color: #80d687 !important;
+}
+
+.elementor-item-active {
+    /* Style for the active menu item */
+    color: #6e6d65; /* Change color for the active item */
+}
+
+/* Add these styles to your CSS file */
+
+.elementor-grid-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+    justify-content: space-around; /* Center cards horizontally */
+    margin: 20px 0; /* Add margin for better spacing */
+}
+
+.card {
+    width: calc(33.33% - 20px); /* Adjust card width based on your design preference */
+    margin: 10px; /* Adjust margin between cards */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column; /* Display card content in a column */
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 225px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #333;
+}
+
+.btn-group {
+    margin-top: 10px;
+}
+
+.btn {
+    margin-right: 5px;
+}
+
+.text-muted {
+    font-size: 12px;
+    color: #888;
+}
+
+.elementor-posts-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+    justify-content: space-around; /* Center cards horizontally */
+    margin: 20px 0; /* Add margin for better spacing */
+}
+
+.elementor-post {
+    width: calc(30% - 20px); /* Adjust card width based on your design preference */
+    margin: 10px; /* Adjust margin between cards */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column; /* Display card content in a column */
+}
+
+.elementor-post:hover {
+    transform: scale(1.05);
+}
+
+.elementor-post__thumbnail {
+    flex: 1;
+}
+
+.elementor-post__thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.elementor-post__text {
+    padding: 20px;
+    flex: 1;
+}
+
+.elementor-post__title {
+    font-size: 18px;
+    color: #101010;
+    margin-bottom: 10px;
+    font-family: dm sans,Sans-serif;
+    text-decoration: none;
+}
+
+.elementor-post__excerpt {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+    font-family: dm sans,Sans-serif;
+}
+
+.elementor-post__read-more {
+    color: #80d687; /* Change color on hover */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.elementor-post__read-more:hover {
+    color: #6e6d65; /* Change color on hover */
+}
+
+.elementor-post-date,
+.elementor-post-avatar {
+    font-size: 12px;
+    color: #888;
+}
