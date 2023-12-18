@@ -16,6 +16,7 @@ const Banner = ({data}) => {
                 src="https://www.guvi.in/blog/wp-content/uploads/2022/10/blog-header.png"
                 className="attachment-full size-full wp-image-14302"
                 alt=""
+                referrerpolicy="no-referrer"
               />
             <figcaption className="widget-image-caption wp-caption-text"></figcaption>
           </figure>
